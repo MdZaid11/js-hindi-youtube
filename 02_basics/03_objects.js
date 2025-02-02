@@ -16,20 +16,24 @@ const obj={
     "full name":"Md Zaid"
     
 }
-console.log(obj.age);
-console.log(obj["age"]);
-console.log(obj["full name"])
-console.log(obj[mySym]);
 
-obj.age=23;
+
+// console.log(obj.age);
+// console.log(obj["age"]);
+// console.log(obj["full name"])
+// console.log(obj[mySym]);
+
+// obj.age=23;
 //Object.freeze(obj); // it will not allowed  user to change the object;
 //console.log(obj);
 
 obj.greeting=function(){
     console.log("Hello js user form cognizant");
     
-}
-obj.greeting2=function(){
-    console.log(`Hello Js user ${this.name}`)
-}
-console.log(obj.greeting2());
+ }
+ console.log(Object.keys(obj));
+ console.log(Object.values(obj));
+// obj.greeting2=function(){
+//     console.log(`Hello Js user ${this.name}`)
+// }
+// console.log(obj.greeting2());
