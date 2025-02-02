@@ -35,3 +35,18 @@ if(true){
 }
 
 //console.log(username);
+
+
+
+// ++++++++++++ interesting concept ++++++++++++++++++
+
+
+console.log(addone(5));   // this will work because of hoisting
+function addone(num){
+     return num+1;
+}
+
+addTwo(5);  // this will not work
+const addTwo=function(num){
+    return num+2;
+}
