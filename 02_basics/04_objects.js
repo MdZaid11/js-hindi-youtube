@@ -27,5 +27,5 @@ const obj2={3:"a",2:"b"};
         email:"z@gmail.com"
     }
  ]
- console.log(users[0].email);
+console.log(users[0].email);
 console.log(users[0].hasOwnProperty('email'))

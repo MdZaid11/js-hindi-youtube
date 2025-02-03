@@ -43,8 +43,8 @@
 
  // one more way to declare arrow function if we have only one line of statement then we can write like this
 
- const addTwo=(num1,num2)=>(num1+num2);  // agar hum arrow ke baad circular bracket lagate hai to return likhne ki zaroorat nhi hai
-console.log(addTwo(4,5));
+//  const addTwo=(num1,num2)=>(num1+num2);  // agar hum arrow ke baad circular bracket lagate hai to return likhne ki zaroorat nhi hai
+// console.log(addTwo(4,5));
 
 const username="zaid"
 const user={

@@ -1,5 +1,4 @@
 
-
  const mySym=Symbol("mySym");
 const obj={
     name:"Zaid",
@@ -16,6 +15,8 @@ const obj={
     "full name":"Md Zaid"
     
 }
+Object.keys(obj)[1]="ages";
+console.log(Object.keys(obj)[1]);
 
 
 // console.log(obj.age);
@@ -27,12 +28,12 @@ const obj={
 //Object.freeze(obj); // it will not allowed  user to change the object;
 //console.log(obj);
 
-obj.greeting=function(){
-    console.log("Hello js user form cognizant");
+// obj.greeting=function(){
+//     console.log("Hello js user form cognizant");
     
- }
- console.log(Object.keys(obj));
- console.log(Object.values(obj));
+//  }
+//  console.log(Object.keys(obj));
+//  console.log(Object.values(obj));
 // obj.greeting2=function(){
 //     console.log(`Hello Js user ${this.name}`)
 // }
