@@ -17,3 +17,22 @@ else {
 
 //truthy values
 // "0"," ","false",[],{},function(){}
+
+
+
+function sum(num1){   // function currying
+    return function sum1(num2){
+        return function sum2(num3){
+             return num1+num2+num3;
+        }
+    }
+}
+const temp=sum(2);
+console.log(temp)
+const tem1=temp(3);
+const temp2=tem1(4);
+console.log(temp2);
+console.log(sum(2)(3)(4));
+
+
+
