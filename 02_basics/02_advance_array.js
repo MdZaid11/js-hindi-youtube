@@ -1,5 +1,5 @@
 const myArr1=["Zaid","Zain","Zaya"];
-const myArr2=["Kulsum","Haider","AIIMS"];
+const myArr2=["Test","user","password"];
 // let x=myArr1.push(myArr2);
 // console.log(x);
 // console.log(myArr1[3][0]);
